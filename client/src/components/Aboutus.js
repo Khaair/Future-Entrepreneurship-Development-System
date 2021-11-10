@@ -31,7 +31,7 @@ class Aboutus extends Component {
       .then((data) => {
         console.log("greeting", data.data);
         if (data.data.length) {
-          // console.log(data.data);
+          // console.log(data.data)
           this.setState({ bussiness: data.data, loding: false });
         } else {
           this.setState({ bussiness: [], loding: false });
