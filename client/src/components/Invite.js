@@ -1,48 +1,10 @@
 import React, { Component } from "react";
+import {
+    EmailIcon, EmailShareButton, FacebookIcon, FacebookMessengerIcon, FacebookMessengerShareButton,
+    FacebookShareButton, LinkedinIcon, LinkedinShareButton, TwitterIcon, TwitterShareButton, WhatsappIcon, WhatsappShareButton
+} from "react-share";
 import Footer from "./Footer";
 import Header from "./Header";
-import {
-  EmailShareButton,
-  FacebookMessengerShareButton,
-  FacebookShareButton,
-  HatenaShareButton,
-  InstapaperShareButton,
-  LineShareButton,
-  LinkedinShareButton,
-  LivejournalShareButton,
-  MailruShareButton,
-  OKShareButton,
-  PinterestShareButton,
-  PocketShareButton,
-  RedditShareButton,
-  TelegramShareButton,
-  TumblrShareButton,
-  TwitterShareButton,
-  ViberShareButton,
-  VKShareButton,
-  WhatsappShareButton,
-  WorkplaceShareButton,
-  FacebookIcon,
-  WhatsappIcon,
-  EmailIcon,
-  FacebookMessengerIcon,
-  HatenaIcon,
-  InstapaperIcon,
-  LineIcon,
-  LinkedinIcon,
-  LivejournalIcon,
-  MailruIcon,
-  OKIcon,
-  PinterestIcon,
-  PocketIcon,
-  RedditIcon,
-  TelegramIcon,
-  TumblrIcon,
-  TwitterIcon,
-  ViberIcon,
-  VKIcon,
-  WeiboIcon,
-} from "react-share";
 class four extends Component {
   render() {
     return (
@@ -67,7 +29,7 @@ class four extends Component {
           <div className="error-contents">
             <div className="error-img">
               {/* <img className="img-fluid" src="images/upcoming.png" alt="" /> */}
-              <h2> Share Chaincome with your friend</h2>
+              <h2> Share Uddoktabd with your friend</h2>
               <div className="col-md-6">
                 <p>
                   {" "}

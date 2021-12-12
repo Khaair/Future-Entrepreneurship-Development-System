@@ -113,10 +113,10 @@
 
 /////////////////////////////////
 import React, { Component } from "react";
-
 import Avatar from "react-avatar";
-import { Link, NavLink } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
+import { Link, NavLink } from "react-router-dom";
+
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -158,7 +158,7 @@ class Header extends Component {
                 <div className="social-media">
                   <ul>
                     <li>
-                      <Link to="https://www.facebook.com/chaincome.bond.5">
+                      <Link to="https://www.facebook.com/Uddoktabd.bond.5">
                         <i className="fab fa-facebook-f" />
                       </Link>
                     </li>
@@ -173,7 +173,7 @@ class Header extends Component {
                       </Link>
                     </li>
                     <li>
-                      <Link to="https://twitter.com/Chaincome1?s=09">
+                      <Link to="https://twitter.com/Uddoktabd1?s=09">
                         <i className="fab fa-twitter" />
                       </Link>
                     </li>
@@ -221,7 +221,7 @@ class Header extends Component {
                 </li>
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/about">
-                    About Chaincome
+                    About Uddoktabd
                   </NavLink>
                 </li>
 

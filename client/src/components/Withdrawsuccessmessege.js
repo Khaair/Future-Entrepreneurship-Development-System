@@ -7,7 +7,7 @@ export default function Withdrawsuccessmesege() {
         <div className="col-md-12">
           <div className="error-template">
             <h1>Awesome We got your Request!</h1>
-            <h2>Thank you for your staying with Chaincome</h2>
+            <h2>Thank you for your staying with Uddoktabd</h2>
             <div className="error-details">
               Within 2 day you will have your withdraw success
             </div>

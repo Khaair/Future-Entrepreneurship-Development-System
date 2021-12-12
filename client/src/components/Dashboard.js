@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { Link, NavLink } from "react-router-dom";
 import ParticlesBg from "particles-bg";
+import React, { Component } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
+import { Link } from "react-router-dom";
 class Dashboard extends Component {
   render() {
     let config = {
@@ -40,7 +40,7 @@ class Dashboard extends Component {
         <div className="bg-light border-right" id="sidebar-wrapper">
           <div className="sidebar-heading">
             {" "}
-            <a href="/">Chaincome</a>{" "}
+            <a href="/">Uddoktabd</a>{" "}
           </div>
           <br />
           <br />

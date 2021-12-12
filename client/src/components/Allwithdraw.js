@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import { Link, NavLink } from "react-router-dom";
 import axios from "axios";
-import URL from "./Url";
-import Moment from "react-moment";
+import React, { Component } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
+import Moment from "react-moment";
+import { Link } from "react-router-dom";
+import URL from "./Url";
 class Allwithdraw extends Component {
   state = {
     withdraw: [],
@@ -71,7 +71,7 @@ class Allwithdraw extends Component {
         <div className="bg-light border-right" id="sidebar-wrapper">
           <div className="sidebar-heading">
             {" "}
-            <a href="/">Chaincome</a>{" "}
+            <a href="/">Uddoktabd</a>{" "}
           </div>
           <br />
           <br />

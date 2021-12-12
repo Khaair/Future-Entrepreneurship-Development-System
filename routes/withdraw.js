@@ -105,7 +105,7 @@ router.get(
         .catch((err) => {
           return res.status(404).json({
             messege: {
-              msg: "Something went wrong please contact with Chaincomes",
+              msg: "Something went wrong please contact with Uddoktabds",
               success: false,
             },
           });
@@ -119,7 +119,7 @@ router.get(
         .catch((err) => {
           return res.status(404).json({
             messege: {
-              msg: "Something went wrong please contact with Chaincomes",
+              msg: "Something went wrong please contact with Uddoktabds",
               success: false,
             },
           });
@@ -133,7 +133,7 @@ router.get(
         .catch((err) => {
           return res.status(404).json({
             messege: {
-              msg: "Something went wrong please contact with Chaincomes",
+              msg: "Something went wrong please contact with Uddoktabds",
               success: false,
             },
           });

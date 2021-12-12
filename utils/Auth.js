@@ -7,6 +7,7 @@ const { Error } = require("mongoose");
 const send = require("gmail-send");
 
 const userRegister = async (userDets, role, res) => {
+  console.log('hoiii ')
   try {
     let usernameNottaken = await validateUsername(userDets.username);
 
@@ -40,11 +41,12 @@ const userRegister = async (userDets, role, res) => {
         expiresIn: "1 day",
       }
     );
+    
     const send = require("gmail-send")({
       user: process.env.Mailstore,
       pass: process.env.pass,
       to: userDets.email,
-      subject: "Wellcome to Chaincomebd",
+      subject: "Wellcome to Uddoktabdbd",
       html: `<!DOCTYPE html>
       <html>
       
@@ -167,7 +169,7 @@ const userRegister = async (userDets, role, res) => {
                       <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
                           <tr>
                               <td bgcolor="#ffffff" align="center" valign="top" style="padding: 40px 20px 20px 20px; border-radius: 4px 4px 0px 0px; color: #111111; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 48px; font-weight: 400; letter-spacing: 4px; line-height: 48px;">
-                                  <h1 style="font-size: 48px; font-weight: 400; margin: 2;">Welcome to chaincome!</h1> <img src=" https://img.icons8.com/clouds/100/000000/handshake.png" width="125" height="120" style="display: block; border: 0px;" />
+                                  <h1 style="font-size: 48px; font-weight: 400; margin: 2;">Welcome to Uddoktabd!</h1> <img src=" https://img.icons8.com/clouds/100/000000/handshake.png" width="125" height="120" style="display: block; border: 0px;" />
                               </td>
                           </tr>
                       </table>
@@ -240,8 +242,9 @@ const userRegister = async (userDets, role, res) => {
         text: "Thank you for staty with us",
       },
       (error, result, fullResult) => {
+        console.log(error,'lllllo');
         if (error) {
-          console.log(error);
+         
           return res.json({
             messege: {
               msg: "gmail sent problem",
@@ -269,6 +272,7 @@ const userRegister = async (userDets, role, res) => {
               });
             })
             .catch((error) => {
+              console.log(error,'error')
               return res.json({
                 messege: {
                   msg: "Unable to create your account",
@@ -603,7 +607,7 @@ const Useractivate = async (email, res) => {
                             </tr>
                             <tr>
                                 <td bgcolor="#ffffff" align="left" style="padding: 0px 30px 40px 30px; border-radius: 0px 0px 4px 4px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;">
-                                    <p style="margin: 0;">Cheers,<br>Chaincome Team</p>
+                                    <p style="margin: 0;">Cheers,<br>Uddoktabd Team</p>
                                 </td>
                             </tr>
                         </table>
@@ -615,7 +619,7 @@ const Useractivate = async (email, res) => {
                             <tr>
                                 <td bgcolor="#FFECD1" align="center" style="padding: 30px 30px 30px 30px; border-radius: 4px 4px 4px 4px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;">
                                     <h2 style="font-size: 20px; font-weight: 400; color: #111111; margin: 0;">Need more help?</h2>
-                                    <p style="margin: 0;"><a href="https://www.facebook.com/chaincome.bond.5" target="_blank" style="color: #FFA73B;">We&rsquo;re here to help you out</a></p>
+                                    <p style="margin: 0;"><a href="https://www.facebook.com/Uddoktabd.bond.5" target="_blank" style="color: #FFA73B;">We&rsquo;re here to help you out</a></p>
                                 </td>
                             </tr>
                         </table>

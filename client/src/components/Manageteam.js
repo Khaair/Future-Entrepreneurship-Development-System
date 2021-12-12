@@ -1,16 +1,9 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import Dropzone from "react-dropzone";
 import axios from "axios";
-import URL from "./Url";
-import { CKEditor } from "@ckeditor/ckeditor5-react";
-import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
-import ReactHtmlParser, {
-  processNodes,
-  convertNodeToElement,
-  htmlparser2,
-} from "react-html-parser";
+import React, { Component } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
+import Dropzone from "react-dropzone";
+import { Link } from "react-router-dom";
+import URL from "./Url";
 class Manageteam extends Component {
   constructor(props) {
     super(props);
@@ -185,7 +178,7 @@ class Manageteam extends Component {
         <div className="bg-light border-right" id="sidebar-wrapper">
           <div className="sidebar-heading">
             {" "}
-            <a href="/">Chaincome</a>{" "}
+            <a href="/">Uddoktabd</a>{" "}
           </div>
           <br />
           <br />

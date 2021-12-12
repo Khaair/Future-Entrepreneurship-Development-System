@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
+import { Link } from "react-router-dom";
 class Managecontact extends Component {
   render() {
     return (
@@ -8,7 +8,7 @@ class Managecontact extends Component {
         <div className="bg-light border-right" id="sidebar-wrapper">
           <div className="sidebar-heading">
             {" "}
-            <a href="/">Chaincome</a>{" "}
+            <a href="/">Uddoktabd</a>{" "}
           </div>
           <br />
           <br />

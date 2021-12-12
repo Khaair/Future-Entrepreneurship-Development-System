@@ -1,16 +1,15 @@
+import axios from "axios";
 import React, { Component } from "react";
+import Moment from "react-moment";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Typical from "react-typical";
+import bikashlogo from "../assets/logo/bikashlogo.jfif";
+import nogodlogo from "../assets/logo/nogodlogo.png";
+import roketlogo from "../assets/logo/roketlogo.png";
 import Footer from "./Footer";
 import Header from "./Header";
-import nogodlogo from "../assets/logo/nogodlogo.png";
-import bikashlogo from "../assets/logo/bikashlogo.jfif";
-import roketlogo from "../assets/logo/roketlogo.png";
-import Typical from "react-typical";
-import axios from "axios";
-import { ToastContainer, toast } from "react-toastify";
-import Myloader from "./Myloader";
-import "react-toastify/dist/ReactToastify.css";
 import URL from "./Url";
-import Moment from "react-moment";
 class four extends Component {
   state = {
     name: "",
@@ -183,7 +182,7 @@ class four extends Component {
         <div className="container">
           <div className="error-contents">
             <Typical
-              steps={["Hello", 1000, "Hello Chaincome member!", 500]}
+              steps={["Hello", 1000, "Hello Uddoktabd member!", 500]}
               loop={Infinity}
               wrapper="p"
             />

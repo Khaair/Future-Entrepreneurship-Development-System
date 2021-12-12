@@ -15,7 +15,7 @@ class Footer extends Component {
                   <li>
                     <a
                       className="facebook hb-xs-margin"
-                      href="https://www.facebook.com/chaincome.bond.5"
+                      href="https://www.facebook.com/Uddoktabd.bond.5"
                     >
                       <span className="hb hb-xs spin hb-facebook">
                         <i className="fab fa-facebook-f" />

@@ -200,7 +200,7 @@ router.post("/forgotpassordorusername", async (req, res) => {
     process.env.SECRET,
     { expiresIn: "1 days" }
   );
-  // user: "chaincome2020@gmail.com",
+  // user: "Uddoktabd2020@gmail.com",
   // pass: "eheypsrlkrhyjbio",
   try {
     const send = require("gmail-send")({
@@ -358,7 +358,7 @@ router.post("/forgotpassordorusername", async (req, res) => {
                            
                             <tr>
                                 <td bgcolor="#ffffff" align="left" style="padding: 20px 30px 20px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;">
-                                    <p style="margin: 0;"><a href="https://www.facebook.com/chaincome.bond.5" target="_blank" style="color: #FFA73B;">https://bit.li.utlddssdstueincx</a></p>
+                                    <p style="margin: 0;"><a href="https://www.facebook.com/Uddoktabd.bond.5" target="_blank" style="color: #FFA73B;">https://bit.li.utlddssdstueincx</a></p>
                                 </td>
                             </tr>
                             <tr>
@@ -368,7 +368,7 @@ router.post("/forgotpassordorusername", async (req, res) => {
                             </tr>
                             <tr>
                                 <td bgcolor="#ffffff" align="left" style="padding: 0px 30px 40px 30px; border-radius: 0px 0px 4px 4px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;">
-                                    <p style="margin: 0;">Cheers,<br>Chaincome Team</p>
+                                    <p style="margin: 0;">Cheers,<br>Uddoktabd Team</p>
                                 </td>
                             </tr>
                         </table>
